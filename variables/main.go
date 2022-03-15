@@ -9,6 +9,20 @@ func main() {
 	var whatToSay string
 	var i int
 
+	// declare then assign value
+	var newVar string
+	newVar = "newVar"
+	fmt.Println(newVar)
+
+	// declare with assignment
+	var newVar2 = "newVar2"
+	fmt.Println(newVar2)
+
+	// declare with assignment with colon syntax
+	// NOTE: only works within func
+	newVar3 := "newVar3"
+	fmt.Println(newVar3)
+
 	whatToSay = "Gooodbye, cruel world"
 	fmt.Println(whatToSay)
 

@@ -18,7 +18,7 @@ func main() {
 	var newVar2 = "newVar2"
 	fmt.Println(newVar2)
 
-	// declare with assignment with colon syntax
+	// declare short-hand syntax
 	// NOTE: only works within func
 	newVar3 := "newVar3"
 	fmt.Println(newVar3)
